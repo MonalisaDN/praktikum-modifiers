@@ -10,7 +10,7 @@ public class Tabung extends Lingkaran{
         this.tinggi = tinggi;
     }
 
-    Double volume() {
+    public Double volume() {
         return super.luas() * tinggi;
     }
 }
